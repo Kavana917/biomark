@@ -8,6 +8,12 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    allowedHosts: ["biomark-67tz.onrender.com"],
+  },
+  preview: {
+    host: "::",
+    port: 8080,
+    allowedHosts: ["biomark-67tz.onrender.com"],
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
