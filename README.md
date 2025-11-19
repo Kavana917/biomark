@@ -1,4 +1,6 @@
-# Welcome to your Lovable project
+# Bio Mark Guard
+
+A web application for biomedical image watermarking, encryption, and verification.
 
 ## Project info
 
